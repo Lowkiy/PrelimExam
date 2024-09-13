@@ -19,19 +19,27 @@
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
+                        <!-- Logo Start -->
                         <a href="index.html" class="logo">Training<em> Studio</em></a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
+                        <!-- Logo End -->
+                        
+                        <!-- Burger Menu Button for Mobile (Place this on line 21) -->
+                        <div class="menu-trigger">
+                          <span></span>
+                        </div>
+                        
+                        <!-- Menu Start -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#features">About</a></li>
-                            <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
-                            <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
-                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li> 
-                            <li class="main-button"><a href="#">Sign Up</a></li>
-                        </ul>        
-                    </nav>
+                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                          <li class="scroll-to-section"><a href="#features">About</a></li>
+                          <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
+                          <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
+                          <li class="scroll-to-section"><a href="#contact-us">Contact</a></li> 
+                          <li class="main-button"><a href="#">Sign Up</a></li>
+                        </ul>
+                        <!-- Menu End -->
+                      </nav>
+                      
                 </div>
             </div>
         </div>
@@ -46,7 +54,7 @@
 
         <div class="video-overlay header-text">
             <div class="caption">
-                <h6>work harder, get stronger</h6>
+                <h6>Work harder, Get stronger</h6>
                 <h2>easy with our <em>gym</em></h2>
                 <div class="main-button scroll-to-section">
                     <a href="#features">Become a member</a>
@@ -62,7 +70,7 @@
                     <div class="section-heading">
                         <h2>Choose <em>Program</em></h2>
                         <img src="assets/images/line-dec.png" alt="waves">
-                        <p>Training Studio is free CSS template for gyms and fitness centers. You are allowed to use this layout for your business website.</p>
+                        <p>Our training programs are sure to make you feel PUMPED! Select one of our courses below that YOU feel that you can HANDLE!</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -73,7 +81,7 @@
                             </div>
                             <div class="right-content">
                                 <h4>Basic Fitness</h4>
-                                <p>Please do not re-distribute this template ZIP file on any template collection website. This is not allowed.</p>
+                                <p>Start your journey with our Basic Fitness program, designed to build a strong foundation for a healthier, more active lifestyle.</p>
                                 <a href="#" class="text-button">Discover More</a>
                             </div>
                         </li>
@@ -83,7 +91,7 @@
                             </div>
                             <div class="right-content">
                                 <h4>New Gym Training</h4>
-                                <p>If you wish to support TemplateMo website via PayPal, please feel free to contact us. We appreciate it a lot.</p>
+                                <p>Elevate your fitness routine with our New Gym Training program, tailored to challenge and transform your body.</p>
                                 <a href="#" class="text-button">Discover More</a>
                             </div>
                         </li>
@@ -93,7 +101,7 @@
                             </div>
                             <div class="right-content">
                                 <h4>Basic Muscle Course</h4>
-                                <p>Credit goes to <a rel="nofollow" href="https://www.pexels.com" target="_blank">Pexels website</a> for images and video background used in this HTML template.</p>
+                                <p>Strengthen and tone your body with our Basic Muscle Course, perfect for building core muscle strength and endurance.</p>
                                 <a href="#" class="text-button">Discover More</a>
                             </div>
                         </li>
@@ -107,7 +115,7 @@
                             </div>
                             <div class="right-content">
                                 <h4>Advanced Muscle Course</h4>
-                                <p>You may want to browse through <a rel="nofollow" href="https://templatemo.com/tag/digital-marketing" target="_parent">Digital Marketing</a> or <a href="https://templatemo.com/tag/corporate">Corporate</a> HTML CSS templates on our website.</p>
+                                <p>Push your limits with our Advanced Muscle Course, designed for serious strength and muscle building.</p>
                                 <a href="#" class="text-button">Discover More</a>
                             </div>
                         </li>
@@ -117,7 +125,7 @@
                             </div>
                             <div class="right-content">
                                 <h4>Yoga Training</h4>
-                                <p>This template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
+                                <p>Achieve balance and flexibility with our Yoga Training, promoting mental peace and physical well-being.</p>
                                 <a href="#" class="text-button">Discover More</a>
                             </div>
                         </li>
@@ -127,7 +135,7 @@
                             </div>
                             <div class="right-content">
                                 <h4>Body Building Course</h4>
-                                <p>Suspendisse fringilla et nisi et mattis. Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.</p>
+                                <p>Transform your physique with our Body Building Course, focusing on muscle growth and sculpting your body.</p>
                                 <a href="#" class="text-button">Discover More</a>
                             </div>
                         </li>
@@ -145,7 +153,7 @@
                 <div class="col-lg-10 offset-lg-1">
                     <div class="cta-content">
                         <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
-                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
+                        <p>Your core is the powerhouse of your body, the center of strength and stability for every movement you make. A strong core enhances your balance, protects your spine, and boosts your overall fitness performance. Build a solid foundation, and watch your strength, confidence, and endurance grow from the inside out.</p>
                         <div class="main-button scroll-to-section">
                             <a href="#our-classes">Become a member</a>
                         </div>
@@ -164,7 +172,7 @@
                 <div class="section-heading">
                     <h2>Our <em>Classes</em></h2>
                     <img src="assets/images/line-dec.png" alt="">
-                    <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                    <p>The following are our personal classes to provide you with a PEROSONAL TRAINER to help you workout.</p>
                 </div>
             </div>
         </div>
@@ -174,22 +182,22 @@
                 <ul class="nav nav-pills flex-column" id="classesTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="tabs-1-tab" data-toggle="pill" href="#tabs-1" role="tab" aria-controls="tabs-1" aria-selected="true">
-                            <img src="assets/images/tabs-first-icon.png" alt=""> First Training Class
+                            <img src="assets/images/tabs-first-icon.png" alt=""> First Training Class (Bodyweight Conditioning)
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="tabs-2-tab" data-toggle="pill" href="#tabs-2" role="tab" aria-controls="tabs-2" aria-selected="false">
-                            <img src="assets/images/tabs-first-icon.png" alt=""> Second Training Class
+                            <img src="assets/images/tabs-first-icon.png" alt=""> Second Training Class (Beginner Yoga)
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="tabs-3-tab" data-toggle="pill" href="#tabs-3" role="tab" aria-controls="tabs-3" aria-selected="false">
-                            <img src="assets/images/tabs-first-icon.png" alt=""> Third Training Class
+                            <img src="assets/images/tabs-first-icon.png" alt=""> Third Training Class (Circuit Training)
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" id="tabs-4-tab" data-toggle="pill" href="#tabs-4" role="tab" aria-controls="tabs-4" aria-selected="false">
-                            <img src="assets/images/tabs-first-icon.png" alt=""> Fourth Training Class
+                            <img src="assets/images/tabs-first-icon.png" alt=""> Fourth Training Class (Advanced HIIT)
                         </a>
                     </li>
                 </ul>
@@ -201,7 +209,7 @@
                     <div class="tab-pane fade show active" id="tabs-1" role="tabpanel" aria-labelledby="tabs-1-tab">
                         <img src="assets/images/training-image-01.jpg" alt="First Class">
                         <h4>First Training Class</h4>
-                        <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                        <p>Participants perform bodyweight exercises such as push-ups and squats to build strength and endurance with minimal equipment.</p>
                         <div class="main-button">
                             <a href="#">View Schedule</a>
                         </div>
@@ -209,7 +217,7 @@
                     <div class="tab-pane fade" id="tabs-2" role="tabpanel" aria-labelledby="tabs-2-tab">
                         <img src="assets/images/training-image-02.jpg" alt="Second Training">
                         <h4>Second Training Class</h4>
-                        <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>This class introduces basic yoga poses and breathing techniques, focusing on improving flexibility and relaxation for newcomers.</p>
                         <div class="main-button">
                             <a href="#">View Schedule</a>
                         </div>
@@ -217,7 +225,7 @@
                     <div class="tab-pane fade" id="tabs-3" role="tabpanel" aria-labelledby="tabs-3-tab">
                         <img src="assets/images/training-image-03.jpg" alt="Third Class">
                         <h4>Third Training Class</h4>
-                        <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
+                        <p>This class involves a series of high-intensity exercises performed in a sequence, combining strength and cardio elements to boost overall fitness.</p>
                         <div class="main-button">
                             <a href="#">View Schedule</a>
                         </div>
@@ -225,7 +233,7 @@
                     <div class="tab-pane fade" id="tabs-4" role="tabpanel" aria-labelledby="tabs-4-tab">
                         <img src="assets/images/training-image-04.jpg" alt="Fourth Training">
                         <h4>Fourth Training Class</h4>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices elementum odio ac tempus. Etiam eleifend orci lectus, eget venenatis ipsum commodo et.</p>
+                        <p>This high-intensity workout includes complex movements and advanced interval training, pushing participants to their limits with challenging exercises and minimal rest periods.</p>
                         <div class="main-button">
                             <a href="#">View Schedule</a>
                         </div>
@@ -237,6 +245,8 @@
 </section>
 <!-- ***** Our Classes End ***** -->
 
+<!-- ***** Schedules Start ***** -->
+
     <section class="section" id="schedule">
         <div class="container">
             <div class="row">
@@ -244,7 +254,7 @@
                     <div class="section-heading dark-bg">
                         <h2>Classes <em>Schedule</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p>Here are our current schedules for our classes and programs! Pick what YOU! think is the best for your schedule!</p>
                     </div>
                 </div>
             </div>
@@ -310,7 +320,7 @@
                     <div class="section-heading">
                         <h2>Expert <em>Trainers</em></h2>
                         <img src="assets/images/line-dec.png" alt="">
-                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                        <p>Here are some of out current available trainers for our class programs.</p>
                     </div>
                 </div>
             </div>
@@ -323,7 +333,7 @@
                         <div class="down-content">
                             <span>Strength Trainer</span>
                             <h4>Bret D. Bowers</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <p>Specializes in building overall body strength through exercises like weightlifting and resistance training. They design programs to improve muscular endurance and functional strength, focusing on proper technique and progressive overload.</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -341,7 +351,7 @@
                         <div class="down-content">
                             <span>Muscle Trainer</span>
                             <h4>Hector T. Daigl</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <p>Concentrates on hypertrophy and muscle growth, using targeted resistance exercises to increase muscle size and definition. They create workout plans that include high-repetition sets and specific isolation exercises to sculpt and define different muscle groups.</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -359,7 +369,7 @@
                         <div class="down-content">
                             <span>Power Trainer</span>
                             <h4>Paul D. Newman</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <p>Focuses on enhancing explosive strength and athletic performance, incorporating plyometrics and high-intensity training. They design workouts to improve speed, agility, and power output, aiming to boost overall athletic capabilities and functional performance.</p>
                             <ul class="social-icons">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -450,5 +460,35 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Your existing HTML content -->
+
+<!-- Add the JavaScript right before the closing </body> tag -->
+<script>
+    window.onscroll = function () {
+      var header = document.querySelector(".header-area");
+      var sticky = header.offsetTop;
+      
+      if (window.pageYOffset > sticky) {
+        header.classList.add("header-sticky");
+      } else {
+        header.classList.remove("header-sticky");
+      }
+    };
+  </script>
+  <script>
+    const menuTrigger = document.querySelector('.menu-trigger');
+    const nav = document.querySelector('.header-area .main-nav .nav');
+  
+    menuTrigger.addEventListener('click', function () {
+      nav.classList.toggle('show');
+      menuTrigger.classList.toggle('active');
+    });
+  </script>
+  </body>
+  </html>
+  
+  </body>
+  </html>
+  
 </body>
 </html>
