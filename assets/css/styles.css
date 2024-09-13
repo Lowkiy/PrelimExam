@@ -621,3 +621,168 @@ subscribe
 }
 
 
+/* 
+---------------------------------------------
+trainers - VIERNES
+--------------------------------------------- 
+*/
+
+#trainers_rgv .trainer-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  padding: 40px;
+}
+
+#trainers_rgv .trainer-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#trainers_rgv .trainer-item span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ed563b;
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+#trainers_rgv .trainer-item h4 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+}
+
+#trainers_rgv .trainer-item p {
+  margin-bottom: 20px;
+}
+
+#trainers_rgv .trainer-item ul.social-icons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+#trainers_rgv .trainer-item ul.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+#trainers_rgv .trainer-item ul.social-icons li a {
+  color: #232d39;
+  transition: all .3s;
+}
+
+#trainers_rgv .trainer-item ul.social-icons li a:hover {
+  color: #ed563b;
+}
+
+
+/* 
+---------------------------------------------
+contact - VIERNES
+--------------------------------------------- 
+*/
+
+#contact-us_rgv {
+  margin-top: 140px;
+}
+
+#contact-us_rgv .container-fluid .col-lg-6 {
+  padding: 0px;
+}
+
+#contact-us_rgv .contact-form {
+  padding: 80px;
+  background-image: url(../images/contact-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact-us_rgv .contact-form #contact {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  color: #7a7a7a;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 100%;
+  height: 40px;
+  outline: none;
+  line-height: 40px;
+  padding: 0px 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 30px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form ::-webkit-input-placeholder { /* Edge */
+  color: #7a7a7a;
+}
+
+.contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #7a7a7a;
+}
+
+.contact-form ::placeholder {
+  color: #7a7a7a;
+}
+
+.contact-form button {
+  display: inline-block;
+  font-size: 13px;
+  padding: 11px 17px;
+  background-color: #ed563b;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all .3s;
+  border: none;
+  outline: none;
+  margin-top: -8px;
+}
+
+.contact-form button:hover {
+  background-color: #f9735b;
+}
+
+
+
+
+/* 
+---------------------------------------------
+footer - VIERNES
+--------------------------------------------- 
+*/
+.footer_rgv {
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.footer_rgv p {
+  color: #232d39;
+  font-size: 13px;
+}
+
+.footer_rgv p a {
+  cursor: pointer;
+  color: #ed563b;
+}
+
+.footer_rgv p a:hover {
+  color: #ed563b;
+}
