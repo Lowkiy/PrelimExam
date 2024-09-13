@@ -155,3 +155,170 @@
         </div>
     </section>
     <!-- ***** Call to Action End ***** -->
+
+<!-- ***** Our Classes Start ***** -->
+<section class="section" id="our-classes">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading">
+                    <h2>Our <em>Classes</em></h2>
+                    <img src="assets/images/line-dec.png" alt="">
+                    <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="tabs">
+            <div class="col-lg-4">
+                <!-- Nav pills -->
+                <ul class="nav nav-pills flex-column" id="classesTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tabs-1-tab" data-toggle="pill" href="#tabs-1" role="tab" aria-controls="tabs-1" aria-selected="true">
+                            <img src="assets/images/tabs-first-icon.png" alt=""> First Training Class
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabs-2-tab" data-toggle="pill" href="#tabs-2" role="tab" aria-controls="tabs-2" aria-selected="false">
+                            <img src="assets/images/tabs-first-icon.png" alt=""> Second Training Class
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabs-3-tab" data-toggle="pill" href="#tabs-3" role="tab" aria-controls="tabs-3" aria-selected="false">
+                            <img src="assets/images/tabs-first-icon.png" alt=""> Third Training Class
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tabs-4-tab" data-toggle="pill" href="#tabs-4" role="tab" aria-controls="tabs-4" aria-selected="false">
+                            <img src="assets/images/tabs-first-icon.png" alt=""> Fourth Training Class
+                        </a>
+                    </li>
+                </ul>
+                <div class="main-rounded-button"><a href="#">View All Schedules</a></div>
+            </div>
+            <div class="col-lg-8">
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tabs-1" role="tabpanel" aria-labelledby="tabs-1-tab">
+                        <img src="assets/images/training-image-01.jpg" alt="First Class">
+                        <h4>First Training Class</h4>
+                        <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                        <div class="main-button">
+                            <a href="#">View Schedule</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabs-2" role="tabpanel" aria-labelledby="tabs-2-tab">
+                        <img src="assets/images/training-image-02.jpg" alt="Second Training">
+                        <h4>Second Training Class</h4>
+                        <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <div class="main-button">
+                            <a href="#">View Schedule</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabs-3" role="tabpanel" aria-labelledby="tabs-3-tab">
+                        <img src="assets/images/training-image-03.jpg" alt="Third Class">
+                        <h4>Third Training Class</h4>
+                        <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
+                        <div class="main-button">
+                            <a href="#">View Schedule</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tabs-4" role="tabpanel" aria-labelledby="tabs-4-tab">
+                        <img src="assets/images/training-image-04.jpg" alt="Fourth Training">
+                        <h4>Fourth Training Class</h4>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices elementum odio ac tempus. Etiam eleifend orci lectus, eget venenatis ipsum commodo et.</p>
+                        <div class="main-button">
+                            <a href="#">View Schedule</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Our Classes End ***** -->
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright Â© 2024 Training Studio</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <section class="section" id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading dark-bg">
+                        <h2>Classes <em>Schedule</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="filters">
+                        <ul class="schedule-filter">
+                            <li class="active" data-tsfilter="monday">Monday</li>
+                            <li data-tsfilter="tuesday">Tuesday</li>
+                            <li data-tsfilter="wednesday">Wednesday</li>
+                            <li data-tsfilter="thursday">Thursday</li>
+                            <li data-tsfilter="friday">Friday</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="schedule-table filtering">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="day-time">Fitness Class</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">10:00AM - 11:30AM</td>
+                                    <td class="tuesday ts-item" data-tsmeta="tuesday">2:00PM - 3:30PM</td>
+                                    <td>William G. Stewart</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Muscle Training</td>
+                                    <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
+                                    <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
+                                    <td>Paul D. Newman</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Body Building</td>
+                                    <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
+                                    <td>Boyd C. Harris</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Yoga Training Class</td>
+                                    <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
+                                    <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
+                                    <td>Hector T. Daigle</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Advanced Training</td>
+                                    <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
+                                    <td>Bret D. Bowers</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
