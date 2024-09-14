@@ -1,3 +1,38 @@
+ <?php 
+// require_once $_SERVER['DOCUMENT_ROOT'].'/PrelimExam/resource/eugene_init.php';
+// if (!empty($_GET)) {
+//     $insert = new insert($_GET['name'], $_GET['email'], $_GET['subject'], $_GET['message']);
+//     ($insert->insertM()); 
+// }
+?>
+
+<?php 
+require_once $_SERVER['DOCUMENT_ROOT'].'/PrelimExam/resource/eugene_init.php';
+
+if (!empty($_GET)) {
+    // Check if 'name', 'email', 'subject', and 'message' are set in the URL
+    if (isset($_GET['name']) && isset($_GET['email']) && isset($_GET['subject']) && isset($_GET['message'])) {
+        $insert = new insert($_GET['name'], $_GET['email'], $_GET['subject'], $_GET['message']);
+        if ($insert->insertM()) {
+            echo "Insert successful!";
+        } else {
+            echo "Insert failed!";
+        }
+    } elseif (isset($_GET['delete'])) {
+        $delete = new delete($_GET['delete']);
+        if ($delete->deleteM()) {
+            echo "<div class='alert alert-success'>Message deleted successfully.</div>";
+        } else {
+            echo "<div class='alert alert-danger'>Failed to delete the message.</div>";
+        }
+    } else {
+        echo "Required parameters are missing.";
+    }
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +70,7 @@
                           <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
                           <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
                           <li class="scroll-to-section"><a href="#contact-us">Contact</a></li> 
+                          <li class="scroll-to-section"><a href="mendioro_message.php" class="main-button">View Messages</a></li> 
                           <li class="main-button"><a href="#">Sign Up</a></li>
                         </ul>
                         <!-- Menu End -->
@@ -395,7 +431,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="contact-form">
-                        <form id="contact" action="" method="post">
+                        <form id="contact" action="" method="GET">
                           <div class="row">
                             <div class="col-md-6 col-sm-12">
                               <fieldset>

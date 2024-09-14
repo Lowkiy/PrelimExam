@@ -1,23 +1,18 @@
 <?php
 
-function clean(){
-    insertT();
-    deleteT();
-    editT();
-}
-function insertT(){
-    if(!empty($_GET['Items'])){
-        $insert = new insert($_GET['Items']);
-        if($insert->insertTask()){
+function insertM(){
+    if(!empty($_GET['message'])){
+        $insert = new insert($_GET['message']);
+        if($insert->insertM()){
           echo '<div class="col-md-9 alert alert-success alert-dismissible fade show" role="alert">
-                    <strong>Nice!</strong> You have successfully inserted a task!
+                    <strong>Nice!</strong> You have successfully sent the message!
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>';
         }else{
             echo '<div class="col-md-9 alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>What.</strong> Insert Task Error.
+            <strong>What.</strong> Insert Message Error.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -26,19 +21,19 @@ function insertT(){
     }
 }
 
-function deleteT(){
+function deleteM(){
     if(!empty($_GET['delete'])){
         $delete = new delete($_GET['delete']);
-        if($delete->deleteTask()){
+        if($delete->deleteM()){
           echo '<div class="col-md-9 alert alert-danger alert-dismissible fade show" role="alert">
-                    <strong>Great!</strong> You have successfully deleted a task!
+                    <strong>Great!</strong> You have successfully deleted a message!
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>';
         }else{
             echo '<div class="col-md-9 alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>What.</strong> Delete Task Error.
+            <strong>What.</strong> Delete Message Error.
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -47,30 +42,21 @@ function deleteT(){
     }
 }
 
-function editT(){
-    if(!empty($_GET['edit'])){
-        $edit = new edit($_GET['edit']);
-        if($edit->editTask()){
-          echo '<div class="col-md-9 alert alert-info alert-dismissible fade show" role="alert">
-                    <strong>Great!</strong> You have successfully completed your task!
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>';
-        }else{
-            echo '<div class="col-md-9 alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>What.</strong> Completing a Task Error.
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>';
-        }
-    }
-}
-
-function viewTable(){
-    $view = new View();
+function viewTable() {
+    $view = new view();
     $view->viewData();
-    $view->viewCompletedData();
 }
+
+function deleteListener(){
+        if (isset($_GET['delete'])) {
+        $id = $_GET['delete'];
+        $delete = new delete($id);
+        if ($delete->deleteM()) {
+            echo "<div class='alert alert-success'>Message deleted successfully.</div>";
+        } else {
+            echo "<div class='alert alert-danger'>Failed to delete the message.</div>";
+        }
+    }
+}
+
 ?>
