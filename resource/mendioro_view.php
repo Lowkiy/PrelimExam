@@ -19,7 +19,7 @@ class view extends baylon_config{
                 <th>Email</th>
                 <th>Subject</th>
                 <th>Message</th>
-                <th>Action</th>
+                <th colspan ='2'>Action</th>
             </tr>
             </thead><tbody>";
         foreach ($result as $data){
@@ -28,6 +28,7 @@ class view extends baylon_config{
             echo "<td>$data[email]</td>";
             echo "<td>$data[subject]</td>";
             echo "<td>$data[message]</td>";
+            echo "<td> <a class='btn btn-success btn-sm'href='mailto:$data[email]'>Email Member</a> </td>";
             echo "<td> <a class='btn btn-danger btn-sm'href='index.php?delete=$data[id]'>Deny Membership</a> </td>";
             echo "</tr>";
         }
