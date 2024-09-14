@@ -19,6 +19,7 @@ class view extends baylon_config{
                 <th>Email</th>
                 <th>Subject</th>
                 <th>Message</th>
+                <th>Action</th>
             </tr>
             </thead><tbody>";
         foreach ($result as $data){
