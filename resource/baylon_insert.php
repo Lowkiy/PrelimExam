@@ -1,5 +1,5 @@
 <?php
-class insert extends config {
+class insert extends baylon_config {
     public $name, $email, $subject, $message;
 
     public function __construct($name, $email, $subject, $message) {
@@ -8,16 +8,16 @@ class insert extends config {
         $this->subject = $subject;
         $this->message = $message;
     }
-    public function insertTask() {
+
+    public function insertM() {
         $con = $this->con();
-        $sql = "INSERT INTO customer_tbl(name, email, subject, message)VALUES('$this->name','$this->email','$this->subject','$this->message')";
+        $sql = "INSERT INTO `customer_tbl`(`name`, `email`, `subject`, `message`) VALUES('$this->name','$this->email','$this->subject','$this->message')";
         $data = $con->prepare($sql);
         if($data->execute()){
             return true;
         }else{
             return false;
         }
-
     }
 }
 ?>
